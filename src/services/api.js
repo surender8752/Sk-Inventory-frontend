@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = 'https://sk-inventory-backend-5u1djf9hq.vercel.app/' || 'http://localhost:5001/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
